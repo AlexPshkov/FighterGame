@@ -14,7 +14,7 @@ namespace Fighters
             var master = new GameMaster();
             var winner = master.PlayAndGetWinner( firstFighter, secondFighter );
 
-            Console.WriteLine( $"Выигрывает  {winner.Name}" );
+            Console.WriteLine( $"Выигрывает {winner.Name}" );
         }
     }
 
